@@ -1,0 +1,42 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+var aux = 0;
+
+for var i = 0; i <= 100; i++
+{
+    
+    if i >= 30 && i <= 40
+    {
+        print("\(i) Viva Swift")
+        
+    }
+    else
+    {
+        
+        aux = i%5
+        if aux == 0
+        {
+            print("\(i) Bingo")
+            
+        }
+        else
+        {
+            
+            
+            aux = i%2
+            if aux == 0
+            {
+                print("\(i) Par")
+                
+            }
+            else
+            {
+                print("\(i) Impar")
+            }
+            
+            
+            
+        }
+    }
+}
